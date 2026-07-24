@@ -315,5 +315,7 @@ pub mod prelude;
 pub mod primitives;
 pub mod text;
 pub mod transform;
+#[cfg(feature = "stm32-neochrom")]
+pub mod neochrom;
 
 pub use embedded_graphics_core::{pixelcolor, Drawable, Pixel};
